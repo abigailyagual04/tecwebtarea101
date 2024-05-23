@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Impacto de las Tecnologías Web en la Sociedad y los Negocios</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sociedad.html">Sociedad</a></li>
+                <li><a href="negocios.html">Negocios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article>
+            <h2>Contacto</h2>
+            <img src="imagenes/conc.png" alt="contacto" width="100px">
+            <p>Si tienes alguna consulta o comentario, por favor completa el siguiente formulario:</p>
+            <form action="send_form.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="comentario">Comentario:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </article>
+    </section>
+    <footer>
+        <b><p>&copy; @abigailyagual2024.</p></b>
+    </footer>
+</body>
+</html>
